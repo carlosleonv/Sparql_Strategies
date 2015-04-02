@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:dcterms="http://purl.org/dc/terms/"
+	xmlns:void="http://rdfs.org/ns/void#"
+	xmlns:ns4="http://bio2rdf.org/bio2rdf_vocabulary:" >
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc.symbol_vocabulary:Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc.symbol resource [hgnc.symbol_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>hgnc.symbol resource [hgnc.symbol_vocabulary:Resource]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:Approved-Gene-Symbol">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved Gene Symbol [hgnc_vocabulary:Approved-Gene-Symbol]</rdfs:label>
+    <rdfs:label xml:lang="en">Approved Gene Symbol [hgnc_vocabulary:Approved-Gene-Symbol]</rdfs:label>
+    <dcterms:title xml:lang="en">Approved Gene Symbol</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:Approved-Gene-Symbol</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Approved-Gene-Symbol</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:Approved-Gene-Symbol</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:Gene-Symbol">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HGNC Official Gene Symbol [hgnc_vocabulary:Gene-Symbol]</rdfs:label>
+    <rdfs:label xml:lang="en">HGNC Official Gene Symbol [hgnc_vocabulary:Gene-Symbol]</rdfs:label>
+    <dcterms:title xml:lang="en">HGNC Official Gene Symbol</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:Gene-Symbol</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gene-Symbol</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:Gene-Symbol</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:Resource">
+    <rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc resource [hgnc_vocabulary:Resource]</rdfs:label>
+    <rdfs:label>hgnc resource [hgnc_vocabulary:Resource]</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:accession">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accession [hgnc_vocabulary:accession]</rdfs:label>
+    <rdfs:label xml:lang="en">accession [hgnc_vocabulary:accession]</rdfs:label>
+    <dcterms:title xml:lang="en">accession</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:accession</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">accession</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:accession</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:approved-name">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">approved name [hgnc_vocabulary:approved-name]</rdfs:label>
+    <rdfs:label xml:lang="en">approved name [hgnc_vocabulary:approved-name]</rdfs:label>
+    <dcterms:title xml:lang="en">approved name</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:approved-name</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">approved-name</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:approved-name</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:approved-symbol">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">approved symbol [hgnc_vocabulary:approved-symbol]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">approved symbol [hgnc_vocabulary:approved-symbol]</rdfs:label>
+    <dcterms:title xml:lang="en">approved symbol</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:approved-symbol</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">approved-symbol</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:approved-symbol</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:chromosome">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome [hgnc_vocabulary:chromosome]</rdfs:label>
+    <rdfs:label xml:lang="en">chromosome [hgnc_vocabulary:chromosome]</rdfs:label>
+    <dcterms:title xml:lang="en">chromosome</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:chromosome</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chromosome</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:chromosome</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:date-approved">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">date approved [hgnc_vocabulary:date-approved]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date approved [hgnc_vocabulary:date-approved]</rdfs:label>
+    <dcterms:title xml:lang="en">date approved</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:date-approved</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date-approved</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:date-approved</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:date-modified">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date modified [hgnc_vocabulary:date-modified]</rdfs:label>
+    <rdfs:label xml:lang="en">date modified [hgnc_vocabulary:date-modified]</rdfs:label>
+    <dcterms:title xml:lang="en">date modified</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:date-modified</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date-modified</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:date-modified</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:date-name-changed">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date name changed [hgnc_vocabulary:date-name-changed]</rdfs:label>
+    <rdfs:label xml:lang="en">date name changed [hgnc_vocabulary:date-name-changed]</rdfs:label>
+    <dcterms:title xml:lang="en">date name changed</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:date-name-changed</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date-name-changed</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:date-name-changed</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:date-symbol-changed">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date symbol changed [hgnc_vocabulary:date-symbol-changed]</rdfs:label>
+    <rdfs:label xml:lang="en">date symbol changed [hgnc_vocabulary:date-symbol-changed]</rdfs:label>
+    <dcterms:title xml:lang="en">date symbol changed</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:date-symbol-changed</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">date-symbol-changed</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:date-symbol-changed</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:gene-family-description">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">gene family description [hgnc_vocabulary:gene-family-description]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene family description [hgnc_vocabulary:gene-family-description]</rdfs:label>
+    <dcterms:title xml:lang="en">gene family description</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:gene-family-description</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene-family-description</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:gene-family-description</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:gene-family-tag">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene family tag [hgnc_vocabulary:gene-family-tag]</rdfs:label>
+    <rdfs:label xml:lang="en">gene family tag [hgnc_vocabulary:gene-family-tag]</rdfs:label>
+    <dcterms:title xml:lang="en">gene family tag</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:gene-family-tag</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene-family-tag</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:gene-family-tag</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:has-approved-symbol">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">has approved symbol [hgnc_vocabulary:has-approved-symbol]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has approved symbol [hgnc_vocabulary:has-approved-symbol]</rdfs:label>
+    <dcterms:title xml:lang="en">has approved symbol</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:has-approved-symbol</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has-approved-symbol</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:has-approved-symbol</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:is-approved-symbol-of">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is approved symbol of [hgnc_vocabulary:is-approved-symbol-of]</rdfs:label>
+    <rdfs:label xml:lang="en">is approved symbol of [hgnc_vocabulary:is-approved-symbol-of]</rdfs:label>
+    <dcterms:title xml:lang="en">is approved symbol of</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:is-approved-symbol-of</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is-approved-symbol-of</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:is-approved-symbol-of</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:locus-specific-xref">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">locus specific xref [hgnc_vocabulary:locus-specific-xref]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus specific xref [hgnc_vocabulary:locus-specific-xref]</rdfs:label>
+    <dcterms:title xml:lang="en">locus specific xref</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:locus-specific-xref</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">locus-specific-xref</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:locus-specific-xref</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:name-synonym">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">name synonym [hgnc_vocabulary:name-synonym]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name synonym [hgnc_vocabulary:name-synonym]</rdfs:label>
+    <dcterms:title xml:lang="en">name synonym</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:name-synonym</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name-synonym</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:name-synonym</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:previous-name">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">previous name [hgnc_vocabulary:previous-name]</rdfs:label>
+    <rdfs:label xml:lang="en">previous name [hgnc_vocabulary:previous-name]</rdfs:label>
+    <dcterms:title xml:lang="en">previous name</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:previous-name</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">previous-name</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:previous-name</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:previous-symbol">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">previous symbol [hgnc_vocabulary:previous-symbol]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">previous symbol [hgnc_vocabulary:previous-symbol]</rdfs:label>
+    <dcterms:title xml:lang="en">previous symbol</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:previous-symbol</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">previous-symbol</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:previous-symbol</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:record-type">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdfs:label xml:lang="en">record type [hgnc_vocabulary:record-type]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">record type [hgnc_vocabulary:record-type]</rdfs:label>
+    <dcterms:title xml:lang="en">record type</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:record-type</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">record-type</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:record-type</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:status">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status [hgnc_vocabulary:status]</rdfs:label>
+    <rdfs:label xml:lang="en">status [hgnc_vocabulary:status]</rdfs:label>
+    <dcterms:title xml:lang="en">status</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:status</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">status</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:status</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:synonym">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym [hgnc_vocabulary:synonym]</rdfs:label>
+    <rdfs:label xml:lang="en">synonym [hgnc_vocabulary:synonym]</rdfs:label>
+    <dcterms:title xml:lang="en">synonym</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:synonym</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">synonym</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:synonym</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-ccds">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ccds [hgnc_vocabulary:x-ccds]</rdfs:label>
+    <rdfs:label xml:lang="en">x ccds [hgnc_vocabulary:x-ccds]</rdfs:label>
+    <dcterms:title xml:lang="en">x ccds</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-ccds</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ccds</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-ccds</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-ec">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ec [hgnc_vocabulary:x-ec]</rdfs:label>
+    <rdfs:label xml:lang="en">x ec [hgnc_vocabulary:x-ec]</rdfs:label>
+    <dcterms:title xml:lang="en">x ec</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-ec</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ec</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-ec</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-ensembl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x ensembl [hgnc_vocabulary:x-ensembl]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ensembl [hgnc_vocabulary:x-ensembl]</rdfs:label>
+    <dcterms:title xml:lang="en">x ensembl</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-ensembl</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ensembl</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-ensembl</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-mgi">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x mgi [hgnc_vocabulary:x-mgi]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x mgi [hgnc_vocabulary:x-mgi]</rdfs:label>
+    <dcterms:title xml:lang="en">x mgi</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-mgi</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-mgi</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-mgi</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-ncbigene">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ncbigene [hgnc_vocabulary:x-ncbigene]</rdfs:label>
+    <rdfs:label xml:lang="en">x ncbigene [hgnc_vocabulary:x-ncbigene]</rdfs:label>
+    <dcterms:title xml:lang="en">x ncbigene</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-ncbigene</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ncbigene</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-ncbigene</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-omim">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x omim [hgnc_vocabulary:x-omim]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x omim [hgnc_vocabulary:x-omim]</rdfs:label>
+    <dcterms:title xml:lang="en">x omim</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-omim</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-omim</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-omim</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-pubmed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdfs:label xml:lang="en">x pubmed [hgnc_vocabulary:x-pubmed]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x pubmed [hgnc_vocabulary:x-pubmed]</rdfs:label>
+    <dcterms:title xml:lang="en">x pubmed</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-pubmed</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-pubmed</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-pubmed</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-refseq">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x refseq [hgnc_vocabulary:x-refseq]</rdfs:label>
+    <rdfs:label xml:lang="en">x refseq [hgnc_vocabulary:x-refseq]</rdfs:label>
+    <dcterms:title xml:lang="en">x refseq</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-refseq</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-refseq</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-refseq</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-rgd">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x rgd [hgnc_vocabulary:x-rgd]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x rgd [hgnc_vocabulary:x-rgd]</rdfs:label>
+    <dcterms:title xml:lang="en">x rgd</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-rgd</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-rgd</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-rgd</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-ucsc">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x ucsc [hgnc_vocabulary:x-ucsc]</rdfs:label>
+    <rdfs:label xml:lang="en">x ucsc [hgnc_vocabulary:x-ucsc]</rdfs:label>
+    <dcterms:title xml:lang="en">x ucsc</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-ucsc</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-ucsc</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-ucsc</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-uniprot">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x uniprot [hgnc_vocabulary:x-uniprot]</rdfs:label>
+    <rdfs:label xml:lang="en">x uniprot [hgnc_vocabulary:x-uniprot]</rdfs:label>
+    <dcterms:title xml:lang="en">x uniprot</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-uniprot</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-uniprot</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-uniprot</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:x-vega">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty" />
+    <rdfs:label xml:lang="en">x vega [hgnc_vocabulary:x-vega]</rdfs:label>
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x vega [hgnc_vocabulary:x-vega]</rdfs:label>
+    <dcterms:title xml:lang="en">x vega</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:x-vega</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">x-vega</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:x-vega</ns4:uri>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://bio2rdf.org/hgnc_vocabulary:xref">
+    <rdf:type rdf:resource="http://bio2rdf.org/hgnc_vocabulary:Resource" />
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#Property" />
+    <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specialist database references. [hgnc_vocabulary:xref]</rdfs:label>
+    <rdfs:label xml:lang="en">Specialist database references. [hgnc_vocabulary:xref]</rdfs:label>
+    <dcterms:title xml:lang="en">Specialist database references.</dcterms:title>
+    <dcterms:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary:xref</dcterms:identifier>
+    <void:inDataset rdf:resource="http://bio2rdf.org/hgnc_resource:bio2rdf.dataset.hgnc.R3" />
+    <ns4:identifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">xref</ns4:identifier>
+    <ns4:namespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hgnc_vocabulary</ns4:namespace>
+    <ns4:uri rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://bio2rdf.org/hgnc_vocabulary:xref</ns4:uri>
+  </rdf:Description>
+</rdf:RDF>

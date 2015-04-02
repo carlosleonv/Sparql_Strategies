@@ -1,0 +1,10 @@
+# from MGI to HGCN: high selectivity since we fix the resource URI and low selectivity from HGCN
+select ?s ?x
+where{
+SERVICE <http://190.15.141.66:8890/sparql/>{
+?s a <http://xmlns.com/foaf/0.1/Person>}
+SERVICE <http://190.15.141.66:8890/sparql/>{
+    ?x a <http://xmlns.com/foaf/0.1/Person>
+}
+}
+limit 10

@@ -1,0 +1,8 @@
+select ?s ?x
+where{
+SERVICE <http://mgi.bio2rdf.org/sparql/>{
+?s a <http://bio2rdf.org/mgi_vocabulary:Resource>}
+SERVICE <http://hgnc.bio2rdf.org/sparql/>{
+    ?x a <http://bio2rdf.org/mgi_vocabulary:Resource>
+}
+}
